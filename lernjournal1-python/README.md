@@ -2,11 +2,9 @@
 
 ## Repository und Library
 
-| | Bitte ausfüllen |
-| -------- | ------- |
-| Repository (URL)  | 
+| [Repository (URL)](https://github.com/gsparty/projekt1-bike-scraper)  | 
 (https://github.com/gsparty/projekt1-bike-scraper)
-| Kurze Beschreibung der App-Funktion | 
+| Die App scrapt Daten von Tutti, extrahiert relevante Parameter für Fahrradanzeigen und schätzt die Wahrscheinlichkeit eines erfolgreichen Verkaufs sowie die voraussichtliche Verkaufsdauer. | 
 Es wird die Wahrscheinlichkeit anzeigen, dass das Motorrad aud Tuti verkauft werden kann und schätzt dessen Dauer|
 | Verwendete Library aus PyPi (Name) |
 Flask, requests, beautifulsoup4, pandas, scikit-learn, joblib, numpy, gunicorn, pytest, azure|
@@ -24,13 +22,13 @@ Flask, requests, beautifulsoup4, pandas, scikit-learn, joblib, numpy, gunicorn, 
 
 ## App, Funktionalität
 
-Die App kann Daten von Tutti scrapen, relevante Parameter für die Fahrrad-Inserate extrahieren und eine Schätzung abgeben, wie wahrscheinlich es ist, dass das Inserat erfolgreich verkauft wird. Das Modell berücksichtigt dabei den Preis, den Standort und den Zustand des Fahrrads. 
+Die App scrapt Daten von der Plattform Tutti, extrahiert relevante Parameter wie Preis, Zustand und Standort der Fahrräder und nutzt diese, um die Wahrscheinlichkeit eines erfolgreichen Verkaufs sowie die voraussichtliche Verkaufsdauer zu schätzen. Das Modell basiert auf maschinellem Lernen und analysiert historische Verkaufsdaten, um präzise Vorhersagen zu ermöglichen. 
 
 ## Dependency Management
 
-Für das Verwalten der Abhängigkeiten wird eine requirements.txt-Datei genutzt. Diese enthält alle erforderlichen Bibliotheken mit ihren jeweiligen Versionen. Durch die Verwendung dieser Datei können alle benötigten Pakete einfach mit dem Befehl pip install -r requirements.txt installiert werden. So wird gewährleistet, dass alle Beteiligten die gleichen Versionen verwenden, was zur Sicherstellung der Funktionalität und Kompatibilität der Anwendung beiträgt.
+Für das Dependency Management wird eine requirements.txt-Datei verwendet, die alle benötigten Bibliotheken mit den jeweiligen Versionen auflistet. Dadurch können alle Abhängigkeiten einfach über den Befehl pip install -r requirements.txt installiert werden, um eine reibungslose Ausführung der Anwendung zu gewährleisten. Durch die Verwendung dieser Datei wird sicherstellt, dass alle Entwickler und Benutzer die gleiche Version der benötigten Bibliotheken verwenden, was zur Stabilität und Kompatibilität der Anwendung beiträgt.
 
 ## Deployment
 
-Das Deployment der Anwendung wurde auf GitHub durchgeführt, um die Codebasis zu versionieren und zu verwalten. Zusätzlich wird die Webanwendung auf Azure bereitgestellt, um das Modell und die Benutzeroberfläche zugänglich zu machen, sodass Nutzer die Vorhersagen direkt abrufen können.
+Das Deployment erfolgt über GitHub, um den Code zu versionieren und zu verwalten. Die Webanwendung wurde auf Azure bereitgestellt, damit die Vorhersagen über eine Benutzeroberfläche abgerufen werden können. Der Azure Deployment-Prozess umfasst das Hochladen der Anwendung auf Azure, die Bereitstellung der Umgebung und die Integration des Modells in die Web-App.
 
