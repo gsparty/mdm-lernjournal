@@ -6,6 +6,7 @@ https://github.com/gsparty/projekt1-bike-scraper
 
 | Die App scrapt Daten von Tutti, extrahiert relevante Parameter für Fahrradanzeigen und schätzt die Wahrscheinlichkeit eines erfolgreichen Verkaufs sowie die voraussichtliche Verkaufsdauer. | 
 Es wird die Wahrscheinlichkeit anzeigen, dass das Motorrad aud Tuti verkauft werden kann und schätzt dessen Dauer|
+
 | Verwendete Library aus PyPi (Name) |
 Flask, requests, beautifulsoup4, pandas, scikit-learn, joblib, numpy, gunicorn, pytest, azure|
 | Verwendete Library aus PyPi (URL) | |
