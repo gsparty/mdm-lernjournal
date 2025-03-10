@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Hello World Web App</h1>
+        <form method="POST">
+            <div class="form-group">
+                <label for="user_input">Gib etwas ein:</label>
+                <input type="text" id="user_input" class="form-control" name="user_input">
+            </div>
+            <button type="submit" class="btn btn-primary">Absenden</button>
+        </form>
+        {% if response %}
+        <h2 class="mt-4">Antwort: {{ response }}</h2>
+        {% endif %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
